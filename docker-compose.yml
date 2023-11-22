@@ -13,17 +13,18 @@ services:
       - ./nginx/conf.d/:/etc/nginx/conf.d/
 
 
-  db:
-    image: postgres
-    container_name: postgres
+  postgres:
+    image: postgres:latest
+    ports:
+     - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
     volumes:
       - ./postgresql/data:/var/lib/postgresql/data
-    ports:
-      - "5432:5432"
-    environment: 
-      POSTGRES_DB: blog
-      POSTGRES_USER: root 
-      POSTGRES_PASSWORD: password 
+
+
 
   # Application Service
   app:
@@ -43,7 +44,7 @@ services:
     ports:
       - "5050:80"
     depends_on:
-      - db 
+      - postgres 
     environment:
       PGADMIN_DEFAULT_EMAIL: hanieasemi76@gmail.com
       PGADMIN_DEFAULT_PASSWORD: password 
