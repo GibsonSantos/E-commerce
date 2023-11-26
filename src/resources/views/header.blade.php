@@ -22,14 +22,13 @@
       </li>
     </ul>
     <nav class="navbar navbar-light bg-light justify-content-between">
-    <form >
-        <div class="form-group">
+
+        <div class="form-group" style="padding-right: 20px">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         </div>
         <div class="form-group">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </div>
-    </form>
 
 </nav>
   </div>
