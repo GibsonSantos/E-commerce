@@ -16,5 +16,5 @@ use App\Http\Controllers\UserController;
 Route::get('/login', function () {
     return view('login');
 });
-
+//this is the teste
 Route::post("/login", [UserController::class, 'login']);
