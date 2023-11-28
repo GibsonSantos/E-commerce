@@ -10,7 +10,4 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
 
-    function login(Request $req){
-        return $req->input();
-    }
 }
