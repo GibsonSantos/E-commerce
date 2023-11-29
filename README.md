@@ -1,4 +1,7 @@
 # E-commerce
+
+**Warning: This Project is in Development**
+
 This is a e-commerce project to sell pokemon
 
 ## How to Install and Run the Project
