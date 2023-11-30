@@ -15,7 +15,7 @@ class UserAuth
      */
     public function handle(Request $request, Closure $next): Response
     {
-        //case the user has logged, he will redirect to the home page
+        //case the user has logged, he will redirect to the home pagee
         if($request->path()=="login" && $request->session()->has('user')){
             return redirect('/');
         }
