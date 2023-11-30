@@ -37,6 +37,7 @@ services:
   # Application Service
   app:
     container_name: blog
+    restart: always
     build: 
       context: ./php
       dockerfile: Dockerfile

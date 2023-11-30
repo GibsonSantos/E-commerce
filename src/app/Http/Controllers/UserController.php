@@ -17,7 +17,7 @@ class UserController extends Controller
         }
 
         if(Hash::check($req->password, $user->password)){
-            return "ok";
+            return redirect('/');
         }
         else{
             return "Username or password doesn't match";
