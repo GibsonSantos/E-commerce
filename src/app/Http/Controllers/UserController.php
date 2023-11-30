@@ -16,6 +16,7 @@ class UserController extends Controller
         }
 
         if(Hash::check($req->password, $user->password)){
+            $req->session()-> put('user', $user);
             return redirect('/');
         }
         else{

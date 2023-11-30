@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ProductController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,3 +19,5 @@ Route::get('/login', function () {
 });
 
 Route::post("/login", [UserController::class, 'login']);
+
+Route::post("/", [UserController::class, 'login']);
