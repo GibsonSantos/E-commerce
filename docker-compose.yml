@@ -36,7 +36,7 @@ services:
 
   # Application Service
   app:
-    container_name: blog
+    container_name: ecommerce
     restart: always
     build: 
       context: ./php
