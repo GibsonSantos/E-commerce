@@ -13,7 +13,7 @@ class ProductSeeder extends Seeder
      */
     public function run(): void
     {
-        //populate table products
+        //populate table productss
         DB::table('products')->insert([
             [
                 'name'=> 'Oppo mobile',
