@@ -2,8 +2,6 @@
 
 **Warning: This Project is in Development**
 
-This is a e-commerce project to sell pokemon
-
 ## How to Install and Run the Project
 
 1. ``` git clone github.com/GibsonSantos/E-commerce.git ```
