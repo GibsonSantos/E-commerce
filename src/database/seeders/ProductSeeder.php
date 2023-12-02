@@ -16,33 +16,33 @@ class ProductSeeder extends Seeder
         //populate table productss
         DB::table('products')->insert([
             [
-                'name'=> 'Oppo mobile',
-                'price'=>"300",
-                'description'=>'A smartphone with 8GB',
-                'category'=>'mobile',
-                'gallery'=>'https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/Apple-iPhone-15-Pro/Blue-Titanium/Apple-iPhone-15-Pro-Blue-Titanium-thumbnail.png'
+                'name'=>'Oppo mobile',
+                "price"=>"300",
+                "description"=>"A smartphone with 8gb ram and much more feature",
+                "category"=>"mobile",
+                "gallery"=>"https://assetscdn1.paytm.com/images/catalog/product/M/MO/MOBOPPO-A52-6-GFUTU6297453D3D253C/1592019058170_0..png"
             ],
             [
-                'name'=> 'Iphone mobile',
-                'price'=>"100",
-                'description'=>'A smartphone with 8GB',
-                'category'=>'mobile',
-                'gallery'=>'https://e7.pngegg.com/pngimages/183/274/png-clipart-lg-electronics-smartphone-android-lte-30-minutes-gadget-magenta.png'
+                'name'=>'Panasonic Tv',
+                "price"=>"400",
+                "description"=>"A smart tv with much more feature",
+                "category"=>"tv",
+                "gallery"=>"https://i.gadgets360cdn.com/products/televisions/large/1548154685_832_panasonic_32-inch-lcd-full-hd-tv-th-l32u20.jpg"
             ],
             [
-                'name'=> 'Xiome mobile',
-                'price'=>"150",
-                'description'=>'A smartphone with 32GB',
-                'category'=>'mobile',
-                'gallery'=>'https://w7.pngwing.com/pngs/599/150/png-transparent-iphone-x-front-view-apple%E6%89%8B%E6%9C%BA-iphone-intelligent-mobile-phone-thumbnail.png'
+                'name'=>'Soni Tv',
+                "price"=>"500",
+                "description"=>"A tv with much more feature",
+                "category"=>"tv",
+                "gallery"=>"https://4.imimg.com/data4/PM/KH/MY-34794816/lcd-500x500.png"
             ],
             [
-                'name'=> 'Smart TV',
-                'price'=>"1000",
-                'description'=>'A TV with ,uch more feature',
-                'category'=>'tv',
-                'gallery'=>'https://w7.pngwing.com/pngs/214/370/png-transparent-television-set-led-backlit-lcd-aoc-international-smart-tv-led-miscellaneous-television-rectangle.png'
-            ]
+                'name'=>'LG fridge',
+                "price"=>"200",
+                "description"=>"A fridge with much more feature",
+                "category"=>"fridge",
+                "gallery"=>"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTFx-2-wTOcfr5at01ojZWduXEm5cZ-sRYPJA&usqp=CAU"
+             ]
         ]);
     }
 }
