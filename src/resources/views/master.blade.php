@@ -29,5 +29,27 @@
       .slider-img{
         height: 400px;
       }
+
+      .custom-product{
+        height: 600px;
+      }
+
+      .slider-text{
+        background-color: #35443585 !important;
+      }
+
+      .trending-image{
+        height: 100px;
+      }
+
+      .trening-item{
+        float: left;
+        width: 23%;
+      }
+
+      .trending-wrapper{
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
     </style>
 </html>

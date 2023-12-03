@@ -1,6 +1,6 @@
 @extends('master')
 @section("content")
-<div class="container custom-product">
+<div class="custom-product">
 
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -13,7 +13,7 @@
             @foreach($products as $item)
                     <div class="carousel-item {{$item['id']==1?'active':''}}" style="align-items:center;">
                         <img class="d-block w-80 mx-auto slider-img" src="{{$item['gallery']}}" alt="First slide">
-                        <div class="carousel-caption">
+                        <div class="carousel-caption slider-text" >
                             <h3>{{$item['name']}}</h3>
                             <p>{{$item['description']}}</p>
                         </div>
@@ -28,6 +28,20 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
+    </div>
+
+    <div class="trending-wrapper">
+        <h3>Trending Products</h3>
+        <div class="carousel-inner">
+                @foreach($products as $item)
+                        <div class="trening-item" style="align-items:center;">
+                            <img class="trending-image" src="{{$item['gallery']}}">
+                            <div class="" >
+                                <h3>{{$item['name']}}</h3>
+                            </div>
+                        </div>
+                    @endforeach
+            </div>
     </div>
 </div>
 @endsection
