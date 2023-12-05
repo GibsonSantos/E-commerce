@@ -60,16 +60,10 @@
             Products
           </h6>
           <p>
-            <a href="#!" class="text-reset">Angular</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">React</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Vue</a>
-          </p>
-          <p>
             <a href="#!" class="text-reset">Laravel</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">bootstrap</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -102,12 +96,21 @@
           <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
           <p>
             <i class="fas fa-envelope me-3 text-secondary"></i>
-            info@example.com
+            gibsonoliveira63@gmail.com
           </p>
           <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
           <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
         </div>
         <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Made by : Gibson Santos
+          </h6>
+          <p>
+              <a href="https://www.linkedin.com/in/gibson-santos-128606264/" class="text-reset">Linkedin Profile</a>
+          </p>
+        </div>
       </div>
       <!-- Grid row -->
     </div>

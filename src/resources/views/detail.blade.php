@@ -1,6 +1,6 @@
 @extends('master')
 @section("content")
-<div class="container">
+<div class="container detail-container">
     <div class="row">
         <div class="col-sm-6">
             <img class="detail-img" src="{{$product['gallery']}}" alt="">
@@ -12,7 +12,11 @@
             <h4>Details : {{$product['description']}}</h4>
             <h4>Details : {{$product['category']}}</h4>
             <br><br>
-            <button class="btn btn-primary" >Add to CART</button>
+            <form action="/add_to_cart" method="POST">
+                @csrf
+                <input type="text" name="product_id" value="{{$product['price']}}" hidden>
+                <button class="btn btn-primary" >Add to CART</button>
+            </form>
             <br><br>
             <button class="btn btn-success" >Buy Now</button>
         </div>
