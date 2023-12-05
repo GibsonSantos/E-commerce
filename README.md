@@ -2,7 +2,7 @@
 
 **Warning: This Project is in Development**
 
-## How to Install and Run the Project
+## How to Install and Run the Projectt
 
 1. ``` git clone github.com/GibsonSantos/E-commerce.git ```
 2. ``` docker-compose exec app composer install ```
