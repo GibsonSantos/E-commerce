@@ -51,5 +51,9 @@
         margin-top: 30px;
         margin-bottom: 30px;
       }
+
+      .detail-img{
+        height: 200px;
+      }
     </style>
 </html>

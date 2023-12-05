@@ -11,13 +11,15 @@
         </ol>
             <div class="carousel-inner">
             @foreach($products as $item)
-                    <div class="carousel-item {{$item['id']==1?'active':''}}" style="align-items:center;">
-                        <img class="d-block w-80 mx-auto slider-img" src="{{$item['gallery']}}" alt="First slide">
-                        <div class="carousel-caption slider-text" >
-                            <h3>{{$item['name']}}</h3>
-                            <p>{{$item['description']}}</p>
+                    <a href="detail/{{$item['id']}}">
+                        <div class="carousel-item {{$item['id']==1?'active':''}}" style="align-items:center;">
+                            <img class="d-block w-80 mx-auto slider-img" src="{{$item['gallery']}}" alt="First slide">
+                            <div class="carousel-caption slider-text" >
+                                <h3>{{$item['name']}}</h3>
+                                <p>{{$item['description']}}</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 @endforeach
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" >
@@ -34,12 +36,14 @@
         <h3>Trending Products</h3>
         <div class="carousel-inner">
                 @foreach($products as $item)
-                        <div class="trening-item" style="align-items:center;">
-                            <img class="trending-image" src="{{$item['gallery']}}">
-                            <div class="" >
-                                <h3>{{$item['name']}}</h3>
+                        <a href="detail/{{$item['id']}}">
+                            <div class="trening-item" style="align-items:center;">
+                                <img class="trending-image" src="{{$item['gallery']}}">
+                                <div class="" >
+                                    <h3>{{$item['name']}}</h3>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     @endforeach
             </div>
     </div>
