@@ -1,4 +1,4 @@
-## E-Commerce Electronics Store
+# E-Commerce Electronics Store
 
 Welcome to our E-Commerce Electronics Store! This project provides a platform for buying and exploring a variety of electronic devices, including TVs, PCs, smartphones, and more.
 
