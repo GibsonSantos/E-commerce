@@ -49,7 +49,10 @@ This project is built using a powerful stack of technologies to ensure a robust 
 3. ```docker compose up -d```
 4. ``` docker compose exec app composer update  ```
 5. Copy ```.env.example``` to ```.env```
-6. You can see the project on ```127.0.0.1:3000```
-7. ``` docker compose exec app php artisan key:generate  ```
+6. ``` docker compose exec app php artisan key:generate  ```
+7. ``` docker compose exec app php artisan migrate  ```
+8. ``` docker compose exec app php artisan db:seed --class=UserSeeder  ```
+9. ``` docker compose exec app php artisan db:seed --class=ProductSeeder  ```
+10. You can see the project on ```127.0.0.1:3000```
 
 **Warning: This Project is in Development**
