@@ -45,10 +45,11 @@ This project is built using a powerful stack of technologies to ensure a robust 
 ## How to Install and Run the Projectt
 
 1. ``` git clone github.com/GibsonSantos/E-commerce.git ```
-2. ``` docker compose exec app composer install ```
-3. Copy ```.env.example``` to ```.env```
-4. ```docker-compose build```
-5. ```docker compose up -d```
+2. ```docker compose build```
+3. ```docker compose up -d```
+4. ``` docker compose exec app composer update  ```
+5. Copy ```.env.example``` to ```.env```
 6. You can see the project on ```127.0.0.1:3000```
+7. ``` docker compose exec app php artisan key:generate  ```
 
 **Warning: This Project is in Development**
