@@ -14,7 +14,7 @@
             <br><br>
             <form action="/add_to_cart" method="POST">
                 @csrf
-                <input type="text" name="product_id" value="{{$product['price']}}" hidden>
+                <input type="text" name="product_id" value="{{$product['id']}}" hidden>
                 <button class="btn btn-primary" >Add to CART</button>
             </form>
             <br><br>
