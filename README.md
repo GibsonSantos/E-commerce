@@ -70,4 +70,3 @@ $ docker compose exec app php artisan db:seed --class=ProductSeeder
 ```
  You can see the project on ```127.0.0.1:3000```
 
-**Warning: This Project is in Development**
