@@ -54,6 +54,5 @@ This project is built using a powerful stack of technologies to ensure a robust 
 8. ``` docker compose exec app php artisan db:seed --class=UserSeeder  ```
 9. ``` docker compose exec app php artisan db:seed --class=ProductSeeder  ```
 10. You can see the project on ```127.0.0.1:3000```
-11. Use: User -> "Augusto"; Email -> "augusto@gmail.com"; Passoword -> "12345" 
 
 **Warning: This Project is in Development**
