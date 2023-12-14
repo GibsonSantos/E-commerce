@@ -44,15 +44,30 @@ This project is built using a powerful stack of technologies to ensure a robust 
 
 ## How to Install and Run the Projectt
 
-1. ``` git clone https://github.com/GibsonSantos/E-commerce.git ```
-2. ```docker compose build```
-3. ```docker compose up -d```
-4. ``` docker compose exec app composer update  ```
-5. Copy ```.env.example``` to ```.env```
-6. ``` docker compose exec app php artisan key:generate  ```
-7. ``` docker compose exec app php artisan migrate  ```
-8. ``` docker compose exec app php artisan db:seed --class=UserSeeder  ```
-9. ``` docker compose exec app php artisan db:seed --class=ProductSeeder  ```
-10. You can see the project on ```127.0.0.1:3000```
+```bash
+$ git clone https://github.com/GibsonSantos/E-commerce.git
+```
+
+ Copy ```.env.example``` to ```.env```
+ 
+```bash
+$ docker compose build
+```
+```bash
+$ docker compose up -d
+```
+```bash
+$ docker compose exec app composer update
+```
+```bash
+$ docker compose exec app php artisan key:generate
+```
+```bash
+$ docker compose exec app php artisan migrate
+```
+```bash
+$ docker compose exec app php artisan db:seed --class=ProductSeeder
+```
+ You can see the project on ```127.0.0.1:3000```
 
 **Warning: This Project is in Development**
