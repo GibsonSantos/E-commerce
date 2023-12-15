@@ -17,8 +17,11 @@
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">Check me out</label>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <br>
+                <button type="submit" class="btn btn-primary w-100">Submit</button>
             </form>
+            <br>
+            <a href="/register" class="btn btn-secondary float-end w-100">Register</a>
         </div>
     </div>
 </div>
