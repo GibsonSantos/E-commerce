@@ -23,4 +23,15 @@ class UserController extends Controller
             return "Username or password doesn't match";
         }
     }
+
+    function register(Request $req){
+        $user = new User();
+        $user->name=$req->username;
+        $user->email=$req->email;
+        $user->password = Hash::make($req->password);
+        $user->save();
+        $req->session()->put('user', $user);
+        return redirect('/');
+    }
+
 }
