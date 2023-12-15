@@ -59,5 +59,10 @@
       .detail-container{
         margin-top: 50px;
       }
+              .cart-list-device{
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 30px;
+        margin-top: 30px;
+      }
     </style>
 </html>
