@@ -44,28 +44,28 @@ This project is built using a powerful stack of technologies to ensure a robust 
 ## How to Install and Run the Projectt
 
 ```bash
-$ git clone https://github.com/GibsonSantos/E-commerce.git
+git clone https://github.com/GibsonSantos/E-commerce.git
 ```
 
  Copy ```.env.example``` to ```.env```
  
 ```bash
-$ docker compose build
+docker compose build
 ```
 ```bash
-$ docker compose up -d
+docker compose up -d
 ```
 ```bash
-$ docker compose exec app composer update
+docker compose exec app composer update
 ```
 ```bash
-$ docker compose exec app php artisan key:generate
+docker compose exec app php artisan key:generate
 ```
 ```bash
-$ docker compose exec app php artisan migrate
+docker compose exec app php artisan migrate
 ```
 ```bash
-$ docker compose exec app php artisan db:seed --class=ProductSeeder
+docker compose exec app php artisan db:seed --class=ProductSeeder
 ```
  You can see the project on ```127.0.0.1:3000```
 
